@@ -860,7 +860,7 @@ export default function App() {
   const handleAdminLogin = (e: React.FormEvent) => {
     e.preventDefault();
     setAdminError("");
-    if (adminPasscode === "rania2024") {
+    if (adminPasscode === "rania99") {
       setIsAdminLoggedIn(true);
       fetchAdminUsersList();
       refreshAdminStats();
